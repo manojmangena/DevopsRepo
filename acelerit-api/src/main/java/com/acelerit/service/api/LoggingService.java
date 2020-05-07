@@ -11,6 +11,7 @@ import com.acelerit.service.exception.LoggingNotFoundExeception;
 
 @Service
 public interface LoggingService {
+	//added by manoj mangena
 	public List<LoggingEntity> getAllLoggingDetails();
 	public Optional<LoggingEntity> getLoggerById(Long loggingId) throws LoggingNotFoundExeception;
 	public LoggingEntity addLoggingDetails(LoggingEntity logging);
